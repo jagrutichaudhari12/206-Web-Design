@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/lavascript">
+function check_email()
+{
+ var 
+ email_add=document.getElementById("ëmail").value
+ atpos=email_add.indexOf("@")
+ dotpos=email_add.lastIndexOf(".")
+ if(atpos<1 dotpos<atpos+2)
+ {
+  alert("Not valid Email,please try again");
+  return false
+  }
+  else
+  {
+   return true
+  }
+ }
+ </script>
+ </head>
+ <body>
+  Enter email<input type="text" id=ëmail">
+  <input type="button"value="cheak cheak_email()">
+  </body>
+  </html>
+  
